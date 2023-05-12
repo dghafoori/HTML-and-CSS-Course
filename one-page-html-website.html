@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic HTML and CSS Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		h1 {
+			font-size: 36px;
+			margin: 0;
+		}
+		
+		main {
+			padding: 20px;
+		}
+		
+		h2 {
+			font-size: 24px;
+			margin-top: 40px;
+		}
+		
+		p {
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		
+		a {
+			color: #333;
+			text-decoration: none;
+			transition: all 0.2s ease-in-out;
+		}
+		
+		a:hover {
+			color: #777;
+		}
+		
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		li {
+			margin-bottom: 10px;
+		}
+		
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		
+		th, td {
+			border: 1px solid #ddd;
+			padding: 8px;
+			text-align: left;
+		}
+		
+		th {
+			background-color: #f2f2f2;
+			font-weight: bold;
+		}
+		
+		img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+			margin: 20px auto;
+		}
+		
+		figure {
+			margin: 20px auto;
+			text-align: center;
+		}
+		
+		figcaption {
+			font-style: italic;
+			font-size: 14px;
+			margin-top: 10px;
+		}
+		
+		form {
+			margin-top: 20px;
+		}
+		
+		label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		
+		input[type="text"], textarea {
+			display: block;
+			margin-bottom: 20px;
+			padding: 10px;
+			width: 100%;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+		
+		input[type="submit"] {
+			background-color: #333;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: white;
+			color: #333;
+			border: 2px solid #333;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to my Basic HTML and CSS Website</h1>
+	</header>
+	
+	<main>
+		<section>
+			<h2>Heading 2 Section</h2>
+			<p>This is a paragraph of text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+			<p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+		</section>
+		
+		<section>
+			<h2>Lists Section</h2>
+			<ul>
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+			
+			<ol>
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ol>
+		</section>
+		
+		<section>
+			<h2>Table Section</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Gender</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John</td>
+						<td>25</td>
+						<td>Male</td>
+					</tr>
+					<tr>
+						<td>Jane</td>
+						<td>30</td>
+						<td>Female</td>
+					</tr>
+					<tr>
+						<td>Bob</td>
+						<td>20</td>
+						<td>Male</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		
+		<section>
+			<h2>Images Section</h2>
+			<figure>
+				<img src="https://via.placeholder.com/500x300" alt="Placeholder Image">
+				<figcaption>This is a caption for the image</figcaption>
+			</figure>
+		</section>
+		
+		<section>
+			<h2>Form Section</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+				
+				<label for="email">Email:</label>
+				<input type="text" id="email" name="email">
+				
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+				
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Basic HTML and CSS Website. All rights reserved.</p>
+	</footer>
